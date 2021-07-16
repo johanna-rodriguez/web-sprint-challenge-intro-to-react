@@ -3,6 +3,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import './fonts/Starjedi.ttf';
+import './fonts/Starjout.ttf';
+
+
 
 import { worker } from "./mocks/browser";
 worker.start();

@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+
+import CharacterHanddler from "./components/CharacterHanddler"
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -11,7 +16,10 @@ const App = () => {
 
   return (
     <div className="App">
+      <Header />
       <h1 className="Header">Characters</h1>
+      <CharacterHanddler />
+      <Footer />
     </div>
   );
 }
